@@ -1,0 +1,55 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	max-width: 1280px;
+	margin: 0 auto;
+	background-image: url('../imagens/fundo_site.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+header{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(46, 139, 87);
+    padding: 0;
+}
+.titulo{
+	text-align: center;
+	background-color: rgb(46, 139, 87);
+}
+
+/*Conteúdo do site*/
+.row{
+    padding: 0 20px;
+}
+section{
+    margin: auto;
+    width: 70%;
+}
+.card{
+    background-color: rgb(105, 105, 105);
+    padding: 20px;
+    margin-top: 20px;
+}
+.titulocard{
+	font-size: 20px;
+}
+article{
+    color: white;
+}
+footer{
+    padding: 20px;
+    background-color: rgb(46, 139, 87);
+    margin-top: 20px;
+}
+footer dd{
+    margin-left: 0;
+}
+footer dl, dd{
+    text-align: center;
+
+}
+
+
+
