@@ -1,3 +1,4 @@
+/*--------------------CSS Página--------------------*/
 body {
 	font-family: 'Poppins', sans-serif;
 	max-width: 1280px;
@@ -7,6 +8,8 @@ body {
 	background-position: center center;
 	background-attachment: fixed;
 }
+/*--------------------------------------------------*/
+/*--------------------CSS Header--------------------*/
 header{
 	display: flex;
     align-items: center;
@@ -18,8 +21,8 @@ header{
 	text-align: center;
 	background-color: rgb(46, 139, 87);
 }
-
-/*Conteúdo do site*/
+/*--------------------------------------------------*/
+/*--------------------CSS Conteúdo Site--------------------*/
 .row{
     padding: 0 20px;
 }
@@ -38,6 +41,8 @@ section{
 article{
     color: white;
 }
+/*--------------------------------------------------*/
+/*--------------------CSS Footer--------------------*/
 footer{
     padding: 20px;
     background-color: rgb(46, 139, 87);
@@ -48,8 +53,8 @@ footer dd{
 }
 footer dl, dd{
     text-align: center;
-
 }
+/*--------------------------------------------------*/
 
 
 
