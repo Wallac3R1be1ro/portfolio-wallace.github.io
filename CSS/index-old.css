@@ -14,10 +14,11 @@ body {
 header{
 	display: flex;
     justify-content: center;
+	font-style: none;
     background-color: rgb(46, 139, 87);
     padding: 0;
 }
-.titulo{
+/*.titulo{
 	background-color: rgb(46, 139, 87);
 }
 /*--------------------------------------------------*/

@@ -1,0 +1,47 @@
+/*Site responsivo*/
+@media (max-width: 1280px) {
+	body {
+		padding: 0 40px;
+	}
+}
+/*----------------------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+/*-----------------ESTILO-SOBRE-----------------*/
+	.conteudo1 {
+		flex-wrap: wrap;
+	}
+/*----------------------------------*/
+	.titulo-conteudo1 {
+		font-size: 30px;
+	}
+/*----------------------------------*/
+	.desc-conteudo1{
+		font-size: 16px;
+	}
+/*----------------------------------*/
+	.Imagem-conteudo1 {
+		margin-top: 30px;
+		max-width: 300px;
+	}
+/*-----------------ESTILO-CARREIRA-----------------*/
+	.conteudo2 {
+		flex-wrap: wrap;
+	}
+/*-----------------ESTILO-HABILIDADES-----------------*/
+	.conteudo3 {
+		flex-wrap: wrap;
+	}
+/*----------------------------------*/
+	.titulo-conteudo3 {
+		font-size: 30px;
+	}
+/*-----------------ESTILO-ESCOLARIDADE-----------------*/
+	.conteudo4 {
+		flex-wrap: wrap;
+	}
+/*----------------------------------*/
+	.titulo-conteudo4 {
+		font-size: 30px;
+	}
+}
+/*----------------------------------------------------------------------------------------*/

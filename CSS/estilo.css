@@ -1,0 +1,183 @@
+/*--------------------CSS Página--------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 1280px;
+	text-decoration: none;
+}
+/*----------------------------------------*/
+body{
+	font-size: 100%;
+	font-family: 'Poppins', sans-serif;
+	background-color: rgb(240, 248, 255);
+	background-position: center center;
+	background-attachment: fixed;
+}
+/*----------------------------------------*/
+/*-----------------ESTILO CABEÇALHO-----------------*/
+/*----------------------------------------*/
+.cabecalho{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 24px;
+}
+/*----------------------------------------*/
+/*.cabecalho-titulo{
+	height: 72px;
+}
+/*----------------------------------------*/
+.cabecalho-menu{
+	display: flex;
+	gap: 32px;
+}
+/*----------------------------------------*/
+.cabecalho-menu-item{
+	color: rgb(46, 139, 87);
+	font-weight: 400;
+	font-size: 16px;
+	cursor: pointer;
+}
+/*----------------------------------------*/
+/*-----------------ESTILO-MAIN-CONTEÚDOS-PÁGINA-----------------*/
+/*----------------------------------------*/
+.conteudos{
+	margin-bottom: 48px;
+	border-top: 0.4px solid rgb(46, 139, 87);
+}
+/*----------------------------------------*/
+/*-----------------ESTILO-SOBRE-----------------*/
+/*----------------------------------------*/
+.conteudo1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+/*----------------------------------------*/
+.Imagem-conteudo1{
+	height: 260px;
+	width: 210px;
+	border-radius: 60px;
+}
+/*----------------------------------------*/
+.sobre-conteudo1{
+	display: block;
+	flex-direction: column;
+	gap: 32px;
+}
+/*----------------------------------------*/
+.titulo-conteudo1{
+	text-align: center;
+	font-weight: 400;
+	font-size: 64px;
+	color: rgb(46, 139, 87);
+}
+/*----------------------------------------*/
+.desc-conteudo1{
+	font-weight: 400;
+	font-size: 16px;
+}
+/*----------------------------------------*/
+.btn-conteudo1{
+	background-color: rgb(46, 139, 87);
+	width: 180px;
+	height: 60px;
+	border: none;
+	box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	cursor: pointer;
+}
+/*----------------------------------------*/
+.btn-conteudo1:houver{
+	background-color: rgb(240, 248, 255);;
+}
+/*----------------------------------------*/
+/*-----------------ESTILO-CARREIRA-----------------*/
+/*----------------------------------------*/
+.conteudo2{
+	margin-top: 48px;
+}
+/*----------------------------------------*/
+.carreira{
+	border-top: 0.4px solid rgb(46, 139, 87);
+	padding-top: 48px;
+}
+/*----------------------------------------*/
+/*-----------------ESTILO-HABILIDADES-----------------*/
+/*----------------------------------------*/
+.conteudo3{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 40px;
+}
+/*----------------------------------------*/
+.habilidades-conteudo3{
+	display: block;
+	flex-direction: row;
+	justify-content: center;
+	gap: 32px;
+}
+/*----------------------------------------*/
+.titulo-conteudo3{
+	font-weight: 400;
+	font-size: 64px;
+	color: rgb(46, 139, 87);
+}
+/*----------------------------------------*/
+.conteudo3-icone-habilidade{
+	height: 80px;
+}
+/*----------------------------------------*/
+/*-----------------ESTILO-ESCOLARIDADE-----------------*/
+/*----------------------------------------*/
+.conteudo4{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-top: 0.4px solid rgb(46, 139, 87);
+	padding-top: 48px;
+}
+/*----------------------------------------*/
+.escolaridade-conteudo4{
+	display: block;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 32px;
+}
+/*----------------------------------------*/
+.titulo-conteudo4{
+	font-weight: 400;
+	font-size: 64px;
+	color: rgb(46, 139, 87);
+}
+/*----------------------------------------*/
+.conteudo4-icone-habilidade{
+	height: 240px;
+}
+/*----------------------------------------*/
+#escolaridade-card{
+	text-align: center;
+	border: 2px solid;
+}
+/*----------------------------------------*/
+/*-----------------ESTILO-RODAPE-FOOTER-----------------*/
+/*----------------------------------------*/
+.rodape{
+	padding: 32px;
+	border-top: 0.4px solid rgb(46, 139, 87);
+}
+/*----------------------------------------*/
+.icone-rodape{
+	height: 48px;
+}
+/*----------------------------------------*/
+.icones-rodape{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+/*----------------------------------------*/
